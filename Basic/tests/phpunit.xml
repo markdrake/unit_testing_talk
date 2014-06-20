@@ -1,0 +1,30 @@
+<phpunit bootstrap="./bootstrap.php" backupGlobals="false" colors="true">
+    <testsuites>
+        <testsuite name="Unit Test Suite">
+            <directory>./</directory>
+        </testsuite>
+    </testsuites>
+    <groups>
+        <exclude>
+            <group></group>
+        </exclude>
+    </groups>
+
+    <filter>
+        <whitelist>
+            <exclude>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <!--<logging>-->
+    <!--<log type="coverage-html"-->
+    <!--target="/tmp/emoneypool-coverage/report"-->
+    <!--charset="UTF-8"-->
+    <!--yui="true" highlight="true"-->
+    <!--lowUpperBound="40"-->
+    <!--highLowerBound="80"/>-->
+    <!--&lt;!&ndash;<log type="testdox-html" target="/tmp/emoneypool-coverage/testdox.html" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<log type="coverage-clover" target="/tmp/emoneypool-coverage/clover.xml"/>&ndash;&gt;-->
+    <!--</logging>-->
+</phpunit>
